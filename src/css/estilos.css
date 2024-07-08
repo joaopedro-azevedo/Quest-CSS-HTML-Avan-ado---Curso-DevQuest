@@ -1,0 +1,78 @@
+
+
+body{
+    min-height: 100vh;
+    font-family: 'Open Sans';
+    background-color: var(--color-background); 
+    background-image: url('./../images/bg-desktop.svg');
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 20px 60px;
+}
+
+.header{
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header .logo{
+    height: 40px;
+}
+
+.main{
+    display: flex;
+}    
+
+.main .image-main{
+    height: 450px;
+}
+
+.main .description-container{
+    padding: 40px 70px;
+}
+
+.main .description-container .title-description{
+    color: #fff;
+    padding: 0 0 30px 0;
+}
+
+.main .description-container .description{
+    color: #fff;
+    padding: 0 130px 20px 0;
+    font-size: 16px;
+}
+
+.main .description-container .button-register{
+    height: 40px;
+    width: 170px;
+    border-radius: 50px;
+    color: var(--color-background);
+}
+
+.main .description-container .button-register:hover{
+    color: #fff;
+    background-color: var(--color-active-buttom);
+    cursor: pointer;
+}
+
+.footer {
+    text-align: end;
+    padding: 50px 0 0 0;
+}
+
+.footer .footer-icons{
+    padding: 10px;
+}
+
+.footer .footer-icons .fab{
+    padding: 3px;
+    color: #fff;
+}
+
+.footer .footer-icons .fab:hover{
+    color: var(--color-active-buttom);
+}
